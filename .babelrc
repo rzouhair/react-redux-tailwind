@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "babel-plugin-transform-react-class-to-function",
+    "babel-plugin-hoist-facc",
+    [
+      "react-directives",
+      {
+        "prefix": "r",
+        "pragmaType": "React"
+      }
+    ]
+  ]
+}
